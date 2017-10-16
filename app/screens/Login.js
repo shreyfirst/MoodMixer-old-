@@ -26,11 +26,6 @@ export default class Login extends React.Component {
         <Text
           style = {{ color: '#FFFFFF' }}
         > Login using Spotify</Text>
-        <TextInput
-        style={{height: 40, borderColor: 'white', borderWidth: 50}}
-        onChangeText={(text) => this.setState({text})}
-        value={this.state.text}
-        />
       </View>
     );
   }
