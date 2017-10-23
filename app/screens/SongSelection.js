@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class SongSelection extends React.Component {
   render() {
     return (
-      <View 
+      <View
         style={{
           alignItems: "center",
           justifyContent: "center",

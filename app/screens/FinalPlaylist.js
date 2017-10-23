@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class FinalPlaylist extends React.Component {
   render() {
     return (
-      <View 
+      <View
         style={{
           alignItems: "center",
           justifyContent: "center",
