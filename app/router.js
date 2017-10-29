@@ -3,7 +3,7 @@ import { StackNavigator } from "react-navigation";
 
 import {
   Settings,
-  Camera,
+  CameraScreen,
   SongSelection,
   Login,
   FinalPlaylist,
@@ -11,7 +11,7 @@ import {
 
 export const Root = StackNavigator({
   Login: { screen: Login },
-  Camera: { screen: Camera },
+  CameraScreen: { screen: CameraScreen },
   SongSelection: { screen: SongSelection },
   FinalPlaylist: { screen: FinalPlaylist },
   Settings: { screen: Settings },

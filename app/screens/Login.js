@@ -66,7 +66,7 @@ export default class Login extends React.Component {
             title="Login"
             color="#EFEFEF"
             accessibilityLabel="Click to login to MoodMixer"
-            onPress={() => navigate('Camera')}
+            onPress={() => navigate('CameraScreen')}
           />
         
       </View>
