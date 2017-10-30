@@ -18,9 +18,9 @@ export default class CameraScreen extends Component {
       <View style={styles.container}>
         <Camera
           ref={(cam) => {
-            this.camera = cam;
-          }}
+            this.camera = cam; }}
           style={styles.preview}
+          type="back"
           aspect={Camera.constants.Aspect.fill}>
           <Text style={styles.capture} onPress={() => {}}>[CAPTURE]</Text>
         </Camera>
