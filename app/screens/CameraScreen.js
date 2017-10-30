@@ -6,9 +6,10 @@ import {
   StyleSheet,
   Text,
   TouchableHighlight,
-  View
+  View,
 } from 'react-native';
 import Camera from 'react-native-camera';
+
 
 
 export default class CameraScreen extends Component {
@@ -22,7 +23,7 @@ export default class CameraScreen extends Component {
           style={styles.preview}
           aspect={Camera.constants.Aspect.fill}
           type="front"
-          >
+        >
           <Text style={styles.capture} onPress={this.takePicture.bind(this)}>Get playlist!</Text>
         </Camera>
       </View>
@@ -31,8 +32,7 @@ export default class CameraScreen extends Component {
 
   takePicture() {
     const options = {};
-    //options.location = ...
-    this.camera.capture({metadata: options})
+    this.camera.capture({ metadata: options })
       .then((data) => console.log(data))
       .catch(err => console.error(err));
   }
