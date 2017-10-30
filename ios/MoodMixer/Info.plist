@@ -41,13 +41,13 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>NSCameraUsageDescription</key>
-	<string>To get a face and identify emotions using Amazon Rekognition.</string>
+	<string>Analyze emotion to generate playlist.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Access camera roll to use older pictures for emotion recognition.</string>
+	<string>Access pictures taken for analytical emotion data.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Listen to your voice and analyze patterns, pitch, etc. for emotion detection.</string>
+	<string>Detect emotion from voice.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Save data used in emotion detection.</string>
+	<string>Save pictures used to analyze emotion data.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
