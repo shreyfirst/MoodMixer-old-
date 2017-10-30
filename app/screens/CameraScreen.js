@@ -10,22 +10,31 @@ import {
 } from 'react-native';
 import Camera from 'react-native-camera';
 
-  
-export default class CameraScreen extends Component {
 
+export default class CameraScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Camera
           ref={(cam) => {
-            this.camera = cam; }}
+            this.camera = cam;
+          }}
           style={styles.preview}
-          type="back"
-          aspect={Camera.constants.Aspect.fill}>
-          <Text style={styles.capture} onPress={() => {}}>[CAPTURE]</Text>
+          aspect={Camera.constants.Aspect.fill}
+          type="front"
+          >
+          <Text style={styles.capture} onPress={this.takePicture.bind(this)}>Get playlist!</Text>
         </Camera>
       </View>
     );
+  }
+
+  takePicture() {
+    const options = {};
+    //options.location = ...
+    this.camera.capture({metadata: options})
+      .then((data) => console.log(data))
+      .catch(err => console.error(err));
   }
 }
 
