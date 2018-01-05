@@ -5,12 +5,15 @@ import {
   Settings,
   CameraScreen,
   SongSelection,
-  Login,
   FinalPlaylist,
 } from "./screens";
 
+import { Login } from './screens';
+
 export const Root = StackNavigator({
-  Login: { screen: Login },
+  Login: { 
+    screen: Login,
+  },
   CameraScreen: { screen: CameraScreen },
   SongSelection: { screen: SongSelection },
   FinalPlaylist: { screen: FinalPlaylist },

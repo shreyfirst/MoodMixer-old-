@@ -1,6 +1,42 @@
 dependencies: \
   /Users/shreygupta/Desktop/MoodMixer/ios/MoodMixer/AppDelegate.m \
   /Users/shreygupta/Desktop/MoodMixer/ios/MoodMixer/AppDelegate.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SpotifyMetadata.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTJSONDecoding.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTRequest.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPartialObject.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTAlbum.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTTrackProvider.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPartialAlbum.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTArtist.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPartialArtist.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPartialPlaylist.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTImage.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPartialTrack.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPlaylistList.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPlaylistSnapshot.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTMetadataTypes.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTListPage.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTTrack.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTPlaylistTrack.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTSavedTrack.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTUser.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTFeaturedPlaylistList.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTFollow.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTBrowse.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTYourMusic.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyMetadata.framework/Headers/SPTSearch.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SpotifyAudioPlayback.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTCircularBuffer.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTCoreAudioController.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTAudioStreamingController.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTAudioPlaybackTypes.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTDiskCache.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTDiskCaching.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTPlaybackMetadata.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SpPlaybackEvent.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTPlaybackState.h \
+  /Users/shreygupta/Desktop/MoodMixer/ios/SpotifyAudioPlayback.framework/Headers/SPTAudioStreamingController_ErrorCodes.h \
   /Users/shreygupta/Desktop/MoodMixer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBundleURLProvider.h \
   /Users/shreygupta/Desktop/MoodMixer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/shreygupta/Desktop/MoodMixer/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \

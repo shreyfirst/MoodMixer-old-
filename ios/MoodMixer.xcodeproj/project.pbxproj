@@ -34,6 +34,14 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* MoodMixerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoodMixerTests.m */; };
+		574DB8691FE76C8B00087B9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57897E721FAFEFE300BCCD97 /* AVFoundation.framework */; };
+		574DB88B1FE76C9700087B9E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57897E731FAFEFE900BCCD97 /* SystemConfiguration.framework */; };
+		57E7D0E91FDE1E2E00DDCDC8 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E7D0E61FDE1E2C00DDCDC8 /* SpotifyAudioPlayback.framework */; };
+		57E7D0EA1FDE1E2F00DDCDC8 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E7D0E61FDE1E2C00DDCDC8 /* SpotifyAudioPlayback.framework */; };
+		57E7D0EB1FDE1E2F00DDCDC8 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E7D0E71FDE1E2D00DDCDC8 /* SpotifyAuthentication.framework */; };
+		57E7D0EC1FDE1E2F00DDCDC8 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E7D0E71FDE1E2D00DDCDC8 /* SpotifyAuthentication.framework */; };
+		57E7D0ED1FDE1E2F00DDCDC8 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E7D0E81FDE1E2E00DDCDC8 /* SpotifyMetadata.framework */; };
+		57E7D0EE1FDE1E2F00DDCDC8 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E7D0E81FDE1E2E00DDCDC8 /* SpotifyMetadata.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8820EEC1A9174C098F5985CC /* libRNReactNativeSpotifyAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA8F1D4301D45F8B4A9D7B7 /* libRNReactNativeSpotifyAuth.a */; };
@@ -324,6 +332,9 @@
 		524D0205C6E54FBDB3256A9E /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		57897E721FAFEFE300BCCD97 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		57897E731FAFEFE900BCCD97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57E7D0E61FDE1E2C00DDCDC8 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		57E7D0E71FDE1E2D00DDCDC8 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		57E7D0E81FDE1E2E00DDCDC8 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		68AAEADBD7074346B17D2437 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -338,7 +349,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E7D0EE1FDE1E2F00DDCDC8 /* SpotifyMetadata.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				57E7D0EC1FDE1E2F00DDCDC8 /* SpotifyAuthentication.framework in Frameworks */,
+				57E7D0EA1FDE1E2F00DDCDC8 /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +360,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574DB88B1FE76C9700087B9E /* SystemConfiguration.framework in Frameworks */,
+				574DB8691FE76C8B00087B9E /* AVFoundation.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -353,9 +369,12 @@
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
+				57E7D0ED1FDE1E2F00DDCDC8 /* SpotifyMetadata.framework in Frameworks */,
+				57E7D0EB1FDE1E2F00DDCDC8 /* SpotifyAuthentication.framework in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
+				57E7D0E91FDE1E2E00DDCDC8 /* SpotifyAudioPlayback.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
@@ -521,6 +540,9 @@
 		57897E511FAFEFE300BCCD97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57E7D0E61FDE1E2C00DDCDC8 /* SpotifyAudioPlayback.framework */,
+				57E7D0E71FDE1E2D00DDCDC8 /* SpotifyAuthentication.framework */,
+				57E7D0E81FDE1E2E00DDCDC8 /* SpotifyMetadata.framework */,
 				57897E731FAFEFE900BCCD97 /* SystemConfiguration.framework */,
 				57897E721FAFEFE300BCCD97 /* AVFoundation.framework */,
 			);
@@ -1187,6 +1209,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Y46Y6KFKQN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1221,6 +1247,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = Y46Y6KFKQN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
@@ -1252,6 +1282,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = Y46Y6KFKQN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
@@ -1276,6 +1310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y46Y6KFKQN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios",
